@@ -10,6 +10,10 @@ const App = () => {
         let divRenderBox = document.getElementById("render-box")
         divRenderBox.innerHTML = `<p>You have chosen to add together ${inputNum1} and ${inputNum2}</p>`
 
+        let sumResult = (Number(inputNum1)) + (Number(inputNum2))
+
+        divRenderBox.innerHTML += `<p>The result of your calculation is ${sumResult}</p>`
+
     }
 
     return (
